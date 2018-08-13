@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ListDetail</string>
+
+    <string name="general_error">Cannot connect to server. Try again in a few minutes</string>
+
+    <!-- Fragment Title -->
+    <string name="title_list">List</string>
+    <string name="title_list_detail">List Detail</string>
+    <string name="action_settings">Settings</string>
+</resources>

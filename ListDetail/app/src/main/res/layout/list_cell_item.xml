@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+    
+    <ImageView
+        android:id="@+id/list_cell_image"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/baseline_photo_black_48"
+        android:padding="4dp"/>
+
+    <LinearLayout
+        android:layout_toRightOf="@+id/list_cell_image"
+        android:layout_alignParentRight="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_cell_title"
+            tools:text="Dummy Title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="2dp"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/list_cell_detail"
+            tools:text="Dummy Desc"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="2dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="24dp"
+        android:layout_marginRight="6dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_chevron_right_black_48"/>
+
+</RelativeLayout>
