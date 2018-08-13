@@ -12,7 +12,7 @@ List of items and detail
 ## Icons
 -   https://material.io/tools/icons/?style=baseline
 
-## Libs
+## Third party libraries 
 -   Glide : https://github.com/bumptech/glide
 - 	Retrofit : http://square.github.io/retrofit
 
