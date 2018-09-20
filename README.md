@@ -1,5 +1,5 @@
-# list_detail_example
-List of items and detail
+# Only sandbox, list_detail_example
+List of items and detail, only sandbox
 
 
 # Change Log
